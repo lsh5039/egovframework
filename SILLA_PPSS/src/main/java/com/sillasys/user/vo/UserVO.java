@@ -36,6 +36,11 @@ public class UserVO {   //DB
 	public void setUserNick(String userNick) {
 		this.userNick = userNick;
 	}
+	@Override
+	public String toString() {
+		return "UserVO [userPk=" + userPk + ", userId=" + userId + ", userPw=" + userPw + ", userPhone=" + userPhone
+				+ ", userNick=" + userNick + "]";
+	}
 	   
 	   
 	   
